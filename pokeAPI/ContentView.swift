@@ -13,14 +13,34 @@ import SwiftUI
 
 struct ContentView: View
 {
-    var body: some View 
+    var body: some View
     {
-        VStack 
+        VStack
         {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/)
+            {
+                LoginView().tabItem
+                {
+                    Image(systemName: "person")
+                    Text("Login")
+                }.tag(1)
+                
+                Image("poke-soccer")
+                    .resizable()
+                    .scaledToFit()
+                    .tabItem
+                {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+                .tag(0)
+                
+                RegisterView().tabItem
+                {
+                    Image(systemName: "person.badge.plus")
+                    Text("Register")
+                }.tag(2)
+            }
         }
         .padding()
     }

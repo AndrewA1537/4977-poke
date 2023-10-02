@@ -11,6 +11,10 @@
 		DDA508602AC784F200959BC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5085F2AC784F200959BC5 /* ContentView.swift */; };
 		DDA508622AC784F300959BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA508612AC784F300959BC5 /* Assets.xcassets */; };
 		DDA508652AC784F300959BC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA508642AC784F300959BC5 /* Preview Assets.xcassets */; };
+		DDC444C02ACB3A3F00E5FCAD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC444BF2ACB3A3F00E5FCAD /* LoginView.swift */; };
+		DDC444C22ACB3B5800E5FCAD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC444C12ACB3B5800E5FCAD /* RegisterView.swift */; };
+		DDC444C42ACB4A5700E5FCAD /* MainLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC444C32ACB4A5700E5FCAD /* MainLandingView.swift */; };
+		DDC444C62ACB506E00E5FCAD /* PokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC444C52ACB506E00E5FCAD /* PokeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DDA5085F2AC784F200959BC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDA508612AC784F300959BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDA508642AC784F300959BC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDC444BF2ACB3A3F00E5FCAD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DDC444C12ACB3B5800E5FCAD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		DDC444C32ACB4A5700E5FCAD /* MainLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLandingView.swift; sourceTree = "<group>"; };
+		DDC444C52ACB506E00E5FCAD /* PokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				DDA5085D2AC784F200959BC5 /* pokeAPIApp.swift */,
 				DDA5085F2AC784F200959BC5 /* ContentView.swift */,
+				DDC444C12ACB3B5800E5FCAD /* RegisterView.swift */,
+				DDC444BF2ACB3A3F00E5FCAD /* LoginView.swift */,
+				DDC444C32ACB4A5700E5FCAD /* MainLandingView.swift */,
+				DDC444C52ACB506E00E5FCAD /* PokeModel.swift */,
 				DDA508612AC784F300959BC5 /* Assets.xcassets */,
 				DDA508632AC784F300959BC5 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC444C62ACB506E00E5FCAD /* PokeModel.swift in Sources */,
+				DDC444C42ACB4A5700E5FCAD /* MainLandingView.swift in Sources */,
 				DDA508602AC784F200959BC5 /* ContentView.swift in Sources */,
+				DDC444C22ACB3B5800E5FCAD /* RegisterView.swift in Sources */,
+				DDC444C02ACB3A3F00E5FCAD /* LoginView.swift in Sources */,
 				DDA5085E2AC784F200959BC5 /* pokeAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
