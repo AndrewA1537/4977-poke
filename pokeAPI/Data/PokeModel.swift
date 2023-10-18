@@ -58,7 +58,7 @@ class PokemonViewModel: ObservableObject
         let group = DispatchGroup()
         
         // Loop through Pokemon ID 1 to 151
-        for id in 1...151
+        for id in 1...9
         {
             // Enter the dispatch group
             group.enter()
