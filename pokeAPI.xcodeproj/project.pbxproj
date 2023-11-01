@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3B624D2AF1F207001834C5 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B624C2AF1F207001834C5 /* ProfileViewViewModel.swift */; };
 		DD90D9912ACE42A6003FEEB1 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90D9902ACE42A6003FEEB1 /* ListView.swift */; };
 		DD90D9952ACE4317003FEEB1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90D9942ACE4317003FEEB1 /* CardView.swift */; };
 		DD90D9972ACE47E2003FEEB1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90D9962ACE47E2003FEEB1 /* SearchView.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD3B624C2AF1F207001834C5 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
 		DD90D9902ACE42A6003FEEB1 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DD90D9942ACE4317003FEEB1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DD90D9962ACE47E2003FEEB1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -130,18 +132,6 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		DD90D98F2ACE4191003FEEB1 /* LoggedIn */ = {
-			isa = PBXGroup;
-			children = (
-				DD90D9902ACE42A6003FEEB1 /* ListView.swift */,
-				DD90D9942ACE4317003FEEB1 /* CardView.swift */,
-				DD90D9962ACE47E2003FEEB1 /* SearchView.swift */,
-				DD90D9982ACE4814003FEEB1 /* FavouritesView.swift */,
-				DD90D99A2ACE4832003FEEB1 /* ProfileView.swift */,
-			);
-			path = LoggedIn;
-			sourceTree = "<group>";
-		};
 		DDA508512AC784F100959BC5 = {
 			isa = PBXGroup;
 			children = (
@@ -163,10 +153,9 @@
 			children = (
 				DDA5F43B2ADF7CE500AAC769 /* Others */,
 				DDA5F43C2ADF7D2500AAC769 /* Models */,
-				DDA5F43F2ADF7D5100AAC769 /* ViewModels */,
 				DDA5F43E2ADF7D4200AAC769 /* Views */,
+				DDA5F43F2ADF7D5100AAC769 /* ViewModels */,
 				DD180CE52AD0B4A700C798CD /* Data */,
-				DD90D98F2ACE4191003FEEB1 /* LoggedIn */,
 				DDA508612AC784F300959BC5 /* Assets.xcassets */,
 				DDA508632AC784F300959BC5 /* Preview Content */,
 			);
@@ -208,6 +197,11 @@
 				DDC444BF2ACB3A3F00E5FCAD /* LoginView.swift */,
 				DDC444C12ACB3B5800E5FCAD /* RegisterView.swift */,
 				DDA5F48C2ADF915900AAC769 /* HomeView.swift */,
+				DD90D9902ACE42A6003FEEB1 /* ListView.swift */,
+				DD90D9942ACE4317003FEEB1 /* CardView.swift */,
+				DD90D9962ACE47E2003FEEB1 /* SearchView.swift */,
+				DD90D9982ACE4814003FEEB1 /* FavouritesView.swift */,
+				DD90D99A2ACE4832003FEEB1 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +212,7 @@
 				DDA5F4882ADF8AC200AAC769 /* ContentViewViewModel.swift */,
 				DDA5F47D2ADF87AA00AAC769 /* LoginViewViewModel.swift */,
 				DDA5F4822ADF894D00AAC769 /* RegisterViewViewModel.swift */,
+				DD3B624C2AF1F207001834C5 /* ProfileViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -351,6 +346,7 @@
 				DD90D9992ACE4814003FEEB1 /* FavouritesView.swift in Sources */,
 				DD90D99B2ACE4832003FEEB1 /* ProfileView.swift in Sources */,
 				DDA5085E2AC784F200959BC5 /* pokeAPIApp.swift in Sources */,
+				DD3B624D2AF1F207001834C5 /* ProfileViewViewModel.swift in Sources */,
 				DDA5F48B2ADF8C1C00AAC769 /* LoadingView.swift in Sources */,
 				DDA5F48D2ADF915900AAC769 /* HomeView.swift in Sources */,
 			);
